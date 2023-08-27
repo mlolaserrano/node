@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/', async (req, res, next) => {
 
-console.log(reg.body)
+console.log(req.body)
 
 var nombre = req.body.nombre;
 var email = req.email;
